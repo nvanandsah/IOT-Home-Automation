@@ -2,7 +2,8 @@
 #include <Servo.h>
 dht DHT;
 Servo s;
-int pos=0;
+int pos;
+pos=0;
 void setup() {
 //select Outoput pins
 pinMode(7,OUTPUT);
